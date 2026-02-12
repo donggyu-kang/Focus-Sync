@@ -1,0 +1,7 @@
+# 모든 하위 폴더의 node_modules 제외
+**/node_modules/
+# 빌드 결과물 제외
+dist/
+target/
+# 설정 파일 제외
+.env
