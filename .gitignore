@@ -1,3 +1,5 @@
+#----------------frontend 관련------------------
+
 # 모든 하위 폴더의 node_modules 제외
 **/node_modules/
 # 빌드 결과물 제외
@@ -5,3 +7,14 @@ dist/
 target/
 # 설정 파일 제외
 .env
+
+# --------------backend 관련--------------------
+
+# Spring Boot application.yml (민감 정보 포함)
+backend/focusSync/src/main/resources/application.yml
+
+# IntelliJ 설정 파일들도 제외
+.idea/
+*.iml
+backend/focusSync/.idea/
+backend/focusSync/out/
