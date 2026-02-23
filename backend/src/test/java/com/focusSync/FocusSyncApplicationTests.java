@@ -1,4 +1,4 @@
-package com.focusSync.focusSync;
+package com.focusSync;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
